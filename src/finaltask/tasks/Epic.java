@@ -8,7 +8,7 @@ import java.util.ArrayList;
 import java.util.Comparator;
 
 public class Epic extends Task {
-    private final ArrayList<Subtask> tasks;
+    private final List<Subtask> tasks;
 
     public Epic(String name, String description, ArrayList<Subtask> tasks) {
         super(name, description);
