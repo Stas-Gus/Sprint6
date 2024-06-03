@@ -16,7 +16,7 @@ public class Epic extends Task {
         this.type = TaskType.EPIC;
     }
 
-    public ArrayList<Subtask> getSubtasks() {
+    public List<Task> getSubtasks() {
         return tasks;
     }
 
